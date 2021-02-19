@@ -18,22 +18,30 @@ const LoginPage=() =>{
                <Grid>
 
                
-               <h2>SignIn</h2>
+               <h4 className ="sign">Welcome to MMS!</h4>
                </Grid>
                
                <TextField className = "user" label ='Enter Your Email or Phone'variant="outlined" fullWidth/>
                <h6  className="id2"></h6>
-               <TextField className = "pass" label ='Enter Top Secret'variant="outlined" fullWidth/>
+               <TextField  type="Password" className = "pass" label ='Enter Top Secret'variant="outlined" fullWidth/>
                <h6 className ="id"> id="none" </h6>
-               <Button className ="sub" color ='primary' fullWidth  variant="contained" >
+               <Button className ="sub" fullWidth  variant="contained" style={{background:'rgb(9, 94, 84)', color:'white'}} >
                    Log In
                </Button>
                  <h6 className ="id3"></h6>
                <a className ="refe" href =""> Forget Password? </a>
                <h1 className = "id4" > </h1>
                <hr/>
+                <h1></h1>
+               <Button className = "bth" variant ="contained" style={{background:'rgb(9, 94, 84)', color:'white'}}>
+                   Create New Account
+               </Button>
                
            </Paper>
+           <h4 className = "copy">
+           MMS (Money Management Service) © 2021  
+           </h4>
+               
            
         </Grid>
 

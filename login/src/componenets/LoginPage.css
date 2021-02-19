@@ -1,29 +1,29 @@
 .Height{
     padding: 35px;
     height: 500px;
+    height: 500px;
     width: 320px;
     margin-left: 880px;
-    margin-top: 15px;
-    
+    margin-top: 15px ;
    
 }
 
 .message{
-    text-align: left;
+    text-align: center;
     padding: 10px;
     margin: 0;
-    background-color:#1877f2;
+    background-color:rgb(9, 94, 84);
     color: white;
-    margin-top: 5px;
     font-family: initial;
+   
    
 }
 
 .quote{
-    text-align: left;
+    text-align: center;
     padding: 14px;
     margin: 0;
-    background-color:#1877f2;
+    background-color:rgb(9, 94, 84);
     color: white;
     font-family: cursive;
 }
@@ -53,10 +53,22 @@ margin: 2px;
 }
 
 .sub{
+    text-size-adjust:x-large;
     height: 60px;
+   
    
 }
 
 .id4{
     margin: 32px;
+}
+
+.bth
+{
+    height: 50px;
+    text-decoration: white;
+}
+
+.copy{
+   text-align:center;
 }
